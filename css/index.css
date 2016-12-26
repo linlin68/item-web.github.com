@@ -1,0 +1,286 @@
+html{ font-size:20px;}
+body{height:100%;}
+.all-layout{}
+/*header样式*/
+header{
+    background:-webkit-linear-gradient(#fff,#ebebeb);
+    position:relative;
+
+}
+.back{
+    background:url("../img/back.png") no-repeat;
+    width:3.2rem;
+    height:1.55rem;
+    background-size:contain;
+    position:absolute;
+    left:0.5rem;
+    top:0.5rem;
+
+}
+.logo{
+    background:url("../img/logo.png") no-repeat center;
+    height:2.5rem;
+    background-size:3.7rem 0.97rem;
+}
+/*banner 样式*/
+.banner{
+    width:16rem;
+    height:6.7rem;
+    /*margin-bottom:0.5rem;*/
+}
+.banner img{
+    width:100%;
+    height:100%;
+}
+/*banner-point样式*/
+.banner-point{
+    text-align:center;
+    margin-top:0.5rem;
+}
+.banner-point a{
+    display:inline-block;
+    width:0.25rem;
+    height:0.25rem;
+    border-radius:50%;
+    background:#ccc;
+    margin:0px 0.125rem;
+}
+.banner-point .change{background:orangered;}
+/*icon*/
+.icon-list{
+    margin-top:1rem;
+}
+.icon-one{
+    overflow:hidden;
+    /*display:flex;*/ /*表示永远在一行内按百分比排列*/
+}
+.icon-one li{
+    width:25%;
+    text-align: center;
+    float: left;
+}
+.icon-one li a{
+    width:100%;
+    height:100%;
+    font-size:0.55rem;
+    display:block;
+    padding-top:2.4rem;
+    margin-bottom:1rem;
+    background:url("../img/ic2.png") no-repeat top;
+    background-size:2rem 2rem;
+    text-align: center;
+}
+/*hot-sale*/
+.hot-sale{
+    margin:0rem 0.5rem ;
+
+}
+.shopping-dis{
+    height:100%;
+}
+.hot-title{ overflow:hidden; margin-bottom:0.6rem;}
+.hot-title h2{
+    line-height:0.75rem;
+    height:0.75rem;
+    float: left;
+    border-left:4px solid #d51938;
+    font-size:0.625rem;
+    padding-left:0.45rem;
+}
+.hot-title h3{
+    line-height:0.75rem;
+    font-size:0.55rem;
+    float: right;
+}
+.hot-title-line{
+    width:100%;
+    height:0.1rem;
+    background:#ccc;
+    margin-bottom:0.75rem;
+}
+.hot-sale-con{
+    width:100%;
+    overflow: hidden;
+    margin-bottom:0.5rem;
+}
+.hot-sale-num{
+    display: inline-block;
+    width:1.5rem;
+    height:3rem;
+    font-weight:bold;
+    color:#fff;
+    background:red;
+    text-align: center;
+    line-height:3rem;
+}
+.hot-sale-img{
+    width:4.5rem;
+    height:3rem;
+}
+.hot-sale-list-r{
+    display: block;
+    float: right;
+    font-size:0.575rem;
+    color:#999999;
+    width:8.45rem;
+    height:2.275rem;
+    background:#f4f4f4;
+    padding-top:0.725rem;
+    padding-left:0.55rem;
+    position: relative;
+}
+.hot-sale-list-r-count{
+    padding-left:0.225rem;
+}
+.hot-sale-list-r-con{
+    overflow: hidden;
+    padding-top:0.3rem;
+}
+
+.sale-font{
+    float: left;
+}
+.price-though{
+    float: left;
+    padding-left:0.675rem;
+}
+.hot-small-price{
+    text-decoration:line-through;
+}
+.hot-sale-list-r-redprice{
+    position: absolute;
+    top:1rem;
+    right:1.325rem;
+    font-size:0.625rem;
+    color:#d51938;
+    font-weight:bold;
+}
+.hot-r-dis{
+    padding-left:0.225rem;
+}
+.hot-list-r-icon{
+    position: absolute;
+    right:0.5rem;
+    top:1.125rem;
+    width:0.325rem;
+    height:0.55rem;
+
+}
+/*10个hot-sale-con结束*/
+/*更多划算 逛起来！*/
+.more-cheaper{
+    width:100%;
+    height:2rem;
+    font-size:0.625rem;
+    font-weight:bold;
+    background:#f5f5f5;
+    color:#666666;
+    line-height:2rem;
+    text-align: center;
+}
+/*商品团*/
+.shopping{
+    margin-top:0.5rem;
+    margin-bottom:0.5rem;
+    overflow: hidden;
+}
+.shop-img{
+    float: left;
+    width:3.75rem;
+    height:8.8rem;
+}
+.shopping-list{
+    overflow: hidden;
+    float: left;
+    border-top:1px solid #eeeeee;
+    width:11.25rem;
+    height:8.775rem;
+
+}
+.shopping-list li{
+    float: left;
+    font-size:0.65rem;
+    border-right:1px solid #eeeeee;
+    border-bottom:1px solid #eeeeee;
+    width:3.7rem;
+    height:2.152rem;
+    text-align: center;
+    line-height:2.152rem;
+}
+/*精品商店 逛起来！*/
+.more-product{
+    margin-bottom:0.75rem;
+    position: relative;
+}
+.more-product-icon{
+    width:0.325rem;
+    height:0.55rem;
+    position: absolute;
+    right:0.45rem;
+    top:0.825rem;
+}
+/*ios客户端 安卓客户端 意见反馈*/
+.app-box-buju{
+    width:100%;
+    height:100%;
+}
+.app-box{
+    height:3.95rem;
+    border-top:1px solid #dcdcdc;
+    border-left:1px solid #dcdcdc;
+    border-bottom:1px solid #dcdcdc;
+    margin-bottom:0.7rem;
+}
+.app-box ul{
+    overflow: hidden;
+}
+/*li宽198px*/
+
+.app-box-icon{
+    float: left;
+    border-right:0.025rem solid #dcdcdc;
+    width:4.928rem;
+    height:3.95rem;
+    font-size:0.6rem;
+    text-align: center;
+
+}
+.app-box-icon-dis{
+    padding-top:0.75rem;
+
+}
+.app-box-icon h2{
+    font-size:0.575rem;
+    padding-top:0.575rem;
+    color:#999999;
+    font-weight:bold;
+}
+/*登录 注册 Top*/
+.login-box{
+    width:100%;
+    height:2.2rem;
+    background:#f8f8f8;
+    font-size:0.675rem;
+    line-height:2.2rem;
+    font-weight:bold;
+
+
+}
+.login-box>span{
+    color:#333333;
+}
+.login-box-log{
+    padding-left:0.75rem;
+}
+.login-box-register{
+    padding-left:1.2rem;
+}
+.login-box-backtop{
+    padding-left:8.15rem;
+    padding-right:0.475rem;
+    background-size:0.425rem 0.225rem;
+    display: inline-block;
+    background-image:url("../img/sanjiao.png");
+    background-repeat:no-repeat;
+    background-position:right center;
+}
